@@ -5,8 +5,9 @@
 }
 
 html {
-	Border: 5px solid  #141469;
+	border: 5px solid #141469;
 	margin: auto;
+	margin: 15px;
 }
 
 .main-nav ul {
@@ -34,7 +35,6 @@ h1, h2 {
 h1 {
 	font-size: 30px;
 	text-align: center;
-	font-style: italic;
 	color: #141469;
 }
 h2 {
@@ -42,12 +42,11 @@ h2 {
 	color: #244b0d;
 }
 img {
-	text-align: center;
 	padding: 50px;
 	margin: 10px;
 }
 .secA {
-	max-width: 49%;
+	max-width: 45%;
 	float: left;
 }
 .secA li {
@@ -55,7 +54,7 @@ img {
 	font-size: 12px;
 }
 .secB {
-	max-width: 49%;
+	max-width: 45%;
 	float: right;
 }
 .secB li {
