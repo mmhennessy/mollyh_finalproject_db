@@ -1,11 +1,10 @@
-
 * {
 	max-width: 900px;
 	margin: auto;
 }
 
 html {
-	border: 5px solid #141469;
+	border: 5px solid  #141469;
 	margin: auto;
 	margin: 15px;
 }
@@ -25,6 +24,10 @@ html {
 	font-family: courier, sans-serif;
 	font-size: 11px;
 	color: #141469;
+	background-color: #3f7fcf;
+	transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease;
 }
 .main-nav li a:hover {
 	text-decoration: none;
@@ -34,8 +37,11 @@ h1, h2 {
 }
 h1 {
 	font-size: 30px;
-	text-align: center;
-	color: #141469;
+	font-style:italic;
+	color: #141469;	
+	transition-property: color;
+	transition-duration: 5ms;
+	transition-timing-function: linear;	
 }
 h2 {
 	font-size: 24px;
@@ -44,6 +50,8 @@ h2 {
 img {
 	padding: 50px;
 	margin: 10px;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
 }
 .secA {
 	max-width: 45%;
